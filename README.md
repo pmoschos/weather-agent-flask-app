@@ -194,13 +194,6 @@ const data = await response.json();
 
 ---
 
-## 📄 License
-
-🔐 Licensed under the [MIT License](https://mit-license.org/).  
-Feel free to fork, modify, and share this project!
-
----
-
 ## 📢 Stay Updated
 
 Be sure to ⭐ this repository to stay updated with new examples and enhancements!
