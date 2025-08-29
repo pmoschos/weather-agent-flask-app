@@ -36,10 +36,12 @@ The app features:
 ## 📸 Screenshots
 
 ### 1. **Search Form**
-![Search Example](https://github.com/user-attachments/assets/0bce7a20-bc2c-45e7-9a3d-99d85e9cf040)
+<img width="892" height="618" alt="image" src="https://github.com/user-attachments/assets/3fcb3192-e825-4d7e-bf99-dbb0f5bc8b47" />
+
 
 ### 2. **Weather Results**
-![Weather Results](https://github.com/user-attachments/assets/e3457ce8-70b2-46ae-871e-9ce95ce7fd0d)
+<img width="837" height="906" alt="image" src="https://github.com/user-attachments/assets/2969d101-302e-44eb-859d-10f41f95aacd" />
+
 
 ---
 
