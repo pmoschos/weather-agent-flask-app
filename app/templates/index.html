@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🌤️ Weather App</h1>
+            <p>Get current weather information powered by AI</p>
+        </div>
+
+        <div class="search-form">
+            <form id="weatherForm">
+                <div class="form-group">
+                    <label for="town">Town/City:</label>
+                    <input type="text" id="town" name="town" required placeholder="Enter town or city name">
+                </div>
+
+                <div class="form-group">
+                    <label for="country">Country:</label>
+                    <input type="text" id="country" name="country" required placeholder="Enter country name">
+                </div>
+
+                <button type="submit" class="search-btn" id="searchBtn">🔍 Get Weather</button>
+            </form>
+
+            <div class="loading" id="loading">
+                <p>🤖 AI Agent is fetching weather data...</p>
+            </div>
+
+            <div class="error" id="error"></div>
+        </div>
+
+        <div class="weather-result" id="weatherResult">
+            <div class="weather-card">
+                <div class="weather-location" id="weatherLocation"></div>
+                <div class="weather-data">
+                    <div class="weather-item">
+                        <div class="label">Temperature</div>
+                        <div class="value" id="temperature">--</div>
+                    </div>
+                    <div class="weather-item">
+                        <div class="label">Wind</div>
+                        <div class="value" id="wind">--</div>
+                    </div>
+                    <div class="weather-item">
+                        <div class="label">Humidity</div>
+                        <div class="value" id="humidity">--</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="recent-searches" id="recentSearches">
+            <div class="recent-title">Recent Searches</div>
+            <div id="recentList"></div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

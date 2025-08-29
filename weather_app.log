@@ -1,0 +1,2 @@
+2025-08-28 23:47:00,787 - app.agents.weather_agent - INFO - Fetching weather data for Patra, Greece
+2025-08-28 23:47:00,803 - app.agents.weather_agent - ERROR - Agent error: 
